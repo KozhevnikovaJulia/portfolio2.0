@@ -1,0 +1,48 @@
+.contactsBlock {
+    height: 100vh;
+    margin-left: 320px;
+width: calc(100% - 320px);
+   }
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts {
+    width: 60%;
+    border: 1px solid;
+}
+.form {     
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input {
+    height: 40px;
+}
+textarea {
+    height: 250px;
+}
+
+.contactButton {
+    border: none; 
+    outline: none;
+    padding: 10px 25px;
+    background-color:  rgb(168, 167, 168);
+}
+@media screen and (max-width: 1360px){
+    .contactsBlock  {
+        margin-left: 90px;
+        width: calc(100% - 90px);
+    }}
+    @media screen and (max-width: 1020px){
+    .contactsBlock  {
+        margin-left: 0;
+        width: 100%;
+    }}

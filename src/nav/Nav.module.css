@@ -1,0 +1,12 @@
+.nav {
+  border: 1px solid;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;   
+  color: #fff;
+  padding: 5px 0;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+}
