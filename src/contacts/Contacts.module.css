@@ -1,24 +1,20 @@
 .contactsBlock {
-    height: 100vh;
-    margin-left: 320px;
-width: calc(100% - 320px);
-   }
-.container {
-    border: 1px solid;
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10% 5% 0;
+   }
+.getInTouch {
+    width: 40%;
 }
 .contacts {
     width: 60%;
     border: 1px solid;
+    padding: 65px 65px 45px;
+    background-color: #f37b83;
+    margin: 0 0 10% 5%;
+    
 }
 .form {     
-    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,18 +27,69 @@ textarea {
 }
 
 .contactButton {
-    border: none; 
+    border: 2px solid;
     outline: none;
-    padding: 10px 25px;
-    background-color:  rgb(168, 167, 168);
+    background-color: #f37b83;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    width: 100%;
+    letter-spacing: 8px;
+    transition: opacity .3s ease;
+    cursor: pointer;
 }
+input, textarea {
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 28px;
+    background-color: transparent;
+    font-size: 14px;
+}
+textarea {
+    height: 150px;
+}
+input::placeholder {
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+  }
+  textarea::placeholder {
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+  }
+  .title {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+  .bigText {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
 @media screen and (max-width: 1360px){
-    .contactsBlock  {
-        margin-left: 90px;
-        width: calc(100% - 90px);
-    }}
-    @media screen and (max-width: 1020px){
-    .contactsBlock  {
-        margin-left: 0;
+    .contactsBlock {
+        flex-wrap: wrap;
+       }
+    .getInTouch {
+        width: 100% ;
+        margin: 0 0 50px;
+    }
+    .contacts {
         width: 100%;
-    }}
+        margin: 0 0 50px;
+    }
+}
