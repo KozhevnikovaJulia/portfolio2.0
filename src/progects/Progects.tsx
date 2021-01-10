@@ -1,8 +1,8 @@
-import React from "react";
-import style from "./Progects.module.css";
-import {MyProgect} from "./progect/MyProgect";
-import socialNetworkImage from "../assets/image/cyrus-gomez-pYdqyf4uMUA-unsplash.jpg";
-import todolistImage from "../assets/image/jess-bailey-94Ld_MtIUf0-unsplash.jpg";
+import React from "react"
+import style from "./Progects.module.scss"
+import {MyProgect} from "./progect/MyProgect"
+import socialNetworkImage from "../assets/image/cyrus-gomez-pYdqyf4uMUA-unsplash.jpg"
+import todolistImage from "../assets/image/jess-bailey-94Ld_MtIUf0-unsplash.jpg"
 
 export function Progects() {
   const socialNetwork = {

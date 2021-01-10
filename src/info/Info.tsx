@@ -1,5 +1,4 @@
-import React from 'react';
-import style from "./Info.module.css";
+import style from "./Info.module.scss"
 
 export function Info() {
   return (

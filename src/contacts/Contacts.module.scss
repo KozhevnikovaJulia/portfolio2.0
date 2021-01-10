@@ -1,0 +1,79 @@
+@import "../common/styles/sass/variables.scss";
+
+.contactsBlock {    
+    @media screen and (max-width: 1360px){    
+        flex-wrap: wrap;   
+}
+    min-height: 100vh;
+    display: flex;
+    padding: 10% 5% 0;
+    .contacts {
+        @media screen and (max-width: 1360px){          
+                width: 100%;
+                margin: 0 0 50px;            
+        }
+        width: 60%;
+        border: 1px solid;
+        padding: 65px 65px 45px;
+        background-color: $primaryColor;
+        margin: 0 0 10% 5%;    
+        .form {     
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            input, textarea {
+                font-family: 'Poppins',sans-serif;
+                font-size: 14px;
+                line-height: 25px;
+                color: #fff;
+                border: 0;
+                border-bottom: 2px solid #fff;
+                padding-bottom: 0;
+                margin-bottom: 50px;
+                width: 100%;
+                height: 28px;
+                background-color: transparent;
+                font-size: 14px;
+            }
+            input {
+                height: 40px;
+                &::placeholder {
+                    font-family: 'Poppins',sans-serif;
+                    font-size: 14px;
+                    line-height: 25px;
+                    color: #fff;
+                  }
+
+            }
+            textarea {
+                height: 150px;
+                &::placeholder {
+                    font-family: 'Poppins',sans-serif;
+                    font-size: 14px;
+                    line-height: 25px;
+                    color: #fff;
+                  }
+            }
+            .contactButton {
+                border: 2px solid;
+                outline: none;
+                background-color: $primaryColor;
+                padding: 20px 0;
+                font-size: 14px;
+                color: #fff;
+                font-family: 'Poppins',sans-serif;
+                font-weight: 700;
+                width: 100%;
+                letter-spacing: 8px;
+                transition: opacity .3s ease;
+                cursor: pointer;
+            }
+        }
+    }
+   }
+
+
+
+
+
+

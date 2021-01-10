@@ -1,0 +1,35 @@
+@import "../../common/styles/sass/variables.scss";
+
+.mySkillWrapper {
+    /* margin: 0 10% 10% 0; */
+    .mySkill {
+        @media screen and (max-width: 767px){        
+             width: 100% ;
+             margin: 0 0 30px;         
+     }
+        width: 285px;
+        margin: 0 10% 10% 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background-color: $backgroundSecondColor;
+        padding: 30px;
+        .mySkillIcon {
+            width: 80px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .mySkillTitle {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .mySkillDescription {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+

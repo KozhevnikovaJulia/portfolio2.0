@@ -1,0 +1,19 @@
+.progectsBlock {
+    min-height: 100vh;
+    display: flex;
+    padding: 10% 5% 0; 
+    .progects {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media screen and (max-width:1085px) {            
+            justify-content: center;                 
+      }
+    }  
+}
+
+
+
+  
+    

@@ -1,15 +1,14 @@
-import React from 'react';
-import style from "./Contacts.module.css"
+import style from "./Contacts.module.scss"
+import {TextBlock} from "../common/components/textBlock/TextBlock"
 
 export function Contacts() {
   return (
-    <div className={style.contactsBlock}>  
-
-        <div className={style.getInTouch}>
-          <h4 className={style.title}>Get In Touch</h4>
-          <p  className={style.bigText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?</p>
-        </div>
+    <div className={style.contactsBlock}>
+      <TextBlock
+        title={"Get In Touch"}
+        largeText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
+        text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
+      />
 
       <div className={style.contacts}>
         <form action="" className={style.form}>
@@ -20,9 +19,8 @@ export function Contacts() {
           <button className={style.contactButton}>SEND</button>
         </form>
         <div>
-         
-        </div>
 
+        </div>
       </div>
     </div>
   )

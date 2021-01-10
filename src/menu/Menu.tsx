@@ -1,5 +1,4 @@
-import React from 'react';
-import style from "./Menu.module.css";
+import style from "./Menu.module.scss"
 
 export function Menu() {
   return (
