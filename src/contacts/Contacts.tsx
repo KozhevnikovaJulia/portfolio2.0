@@ -1,7 +1,11 @@
 import style from "./Contacts.module.scss"
 import {TextBlock} from "../common/components/textBlock/TextBlock"
+import {ContactReduxForm} from "./ContactForm"
 
-export function Contacts() {
+export function Contacts(props:any) {
+  const onSubmit = (formData: any)=> {
+    props.contact(formData.name, formData.email, formData.subject, formData.message)
+      }
   return (
     <div className={style.contactsBlock}>
       <TextBlock
@@ -11,14 +15,8 @@ export function Contacts() {
       />
 
       <div className={style.contacts}>
-        <form action="" className={style.form}>
-          <input type="text" placeholder={"Name"} />
-          <input type="text" placeholder={"Email"} />
-          <input type="text" placeholder={"Subject"} />
-          <textarea placeholder={"Message..."}></textarea>
-          <button className={style.contactButton}>SEND</button>
-        </form>
-        <div>
+        <ContactReduxForm onSubmit ={onSubmit}/>
+      <div>
 
         </div>
       </div>
