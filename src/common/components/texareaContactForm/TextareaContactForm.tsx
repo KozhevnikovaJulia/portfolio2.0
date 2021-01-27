@@ -1,19 +1,17 @@
 import style from "./TextareaContactForm.module.scss"
-import React, {DetailedHTMLProps, TextareaHTMLAttributes} from "react";
 
-type DefaultTextareaPropsType = DetailedHTMLProps<TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement>;
-
-type TextareaContactFormPropsType = DefaultTextareaPropsType & { 
-      input: any,
-      meta: any
+type TextareaContactFormPropsType = {
+    name: string
+    onChange: (e: any)=> void
+    onBlur: (e: any)=> void
+    value: string
+    placeholder: string
 }
-
-export const TextareaContactForm: React.FC<TextareaContactFormPropsType> = ({input, meta, ...props}) => {   
+export const TextareaContactForm:  React.FC<TextareaContactFormPropsType> = ({...props}) => {
     return (
-        <div>
-           <textarea className={style.contactTextarea}{...props} {...input} />
-           {meta.touched && meta.ivalid && <span>{meta.error}</span>}
-        </div>
+        <>
+        <textarea className={style.contactTextarea}  {...props} />        
+      </>
 
     )
 }
