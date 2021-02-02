@@ -11,7 +11,7 @@
   height: 100vh;
   z-index: 1;
   top: 0;
-  display: block;
+  display: none;
   padding-top: 110px;
   padding-left: 55px;
   .toggleHolder {
@@ -80,7 +80,7 @@
         width: 25px;
         position: relative;
         height: 30px;
-        color: $primaryColor;
+        color: #c6646b;
       }
       .pagination {
         position: relative;
@@ -107,7 +107,9 @@
   }
 }
 
-
+.nav.active {
+  display: block;
+}
 
 
 

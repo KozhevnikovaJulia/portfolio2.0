@@ -5,7 +5,7 @@ import {TextBlock} from "../common/components/textBlock/TextBlock"
 
 export function Experience () {
   return (
-    <div className={style.experienceBlock}>
+    <div id={"experienceBlock"} className={style.experienceBlock}>
 
       <div className={style.experience}>
         <h4 className={style.title}>Experience</h4>

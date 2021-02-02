@@ -12,7 +12,7 @@ export function MyProgect(props: { style: styleType, purposeProject: string, bri
       <div className={style.imageContainer} style={props.style}>
         <a href=""></a>
       </div>
-
+     
     </div>
   )
 }

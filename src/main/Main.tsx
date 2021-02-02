@@ -6,7 +6,7 @@ export function Main() {
     backgroundImage: `url(${myPhotoImage })`
   };
   return (
-    <div className={style.mainBlock}>
+    <div id={"mainBlock"} className={style.mainBlock}>
       <div className={style.mainText}>
         <div className={style.hello}>Hello. My name is</div>
         <h1 className={style.name}>Julia</h1>
