@@ -1,5 +1,6 @@
 import style from "./Main.module.scss"
 import myPhotoImage from "../assets/image/7.jpg"
+import ReactTypingEffect from 'react-typing-effect';
 
 export function Main() {
   const myPhoto= {
@@ -9,7 +10,8 @@ export function Main() {
     <div id={"mainBlock"} className={style.mainBlock}>
       <div className={style.mainText}>
         <div className={style.hello}>Hello. My name is</div>
-        <h1 className={style.name}>Julia</h1>
+        <ReactTypingEffect  text={"Julia"} className={style.name} />
+        {/* <h1 className={style.name}>Julia</h1> */}
         <p>A full stack all around designer that may or may not include a guide for specific creative potential methods who framing and evaluating moves.</p>
       </div>
       <div className={style.mainPhoto} style={myPhoto}></div>

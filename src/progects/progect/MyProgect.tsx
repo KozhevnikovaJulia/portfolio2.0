@@ -5,14 +5,10 @@ type styleType = {
 }
 
 
-export function MyProgect(props: { style: styleType, purposeProject: string, briefDescription: string }) {
+export function MyProgect(props: { style: styleType, purposeProject: string, briefDescription: string, link:string }) {
   return (
     <div className={style.myProgectBlock}>
-
-      <div className={style.imageContainer} style={props.style}>
-        <a href=""></a>
-      </div>
-     
+      <a href={props.link} className={style.imageContainer} style={props.style}></a>     
     </div>
   )
 }

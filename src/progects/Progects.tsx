@@ -15,9 +15,9 @@ export function Progects() {
   return (
     <div id={"progectsBlock"} className={style.progectsBlock}>    
         <div className={style.progects}>
-          <MyProgect style={socialNetwork} purposeProject = {"Social Network."} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
-          <MyProgect style={todolist} purposeProject = {"Todo List"} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
-          <MyProgect style={todolist} purposeProject = {"Todo List"} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
+          <MyProgect link={"https://kozhevnikovajulia.github.io/SocialNetwork/"} style={socialNetwork} purposeProject = {"Social Network."} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
+          <MyProgect link={"https://kozhevnikovajulia.github.io/TodoList/"} style={todolist} purposeProject = {"Todo List"} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
+          <MyProgect link={"https://kozhevnikovajulia.github.io/TodoList/"} style={todolist} purposeProject = {"Todo List"} briefDescription={"Используйте наш бесплатный переводчик с английского на русский и переводите ваши тексты онлайн."} />
         </div>     
     </div>
   )
