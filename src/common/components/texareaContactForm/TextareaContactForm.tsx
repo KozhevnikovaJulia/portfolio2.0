@@ -2,9 +2,9 @@ import style from "./TextareaContactForm.module.scss"
 
 type TextareaContactFormPropsType = {
     name: string
-    onChange: (e: any)=> void
-    onBlur: (e: any)=> void
-    value: string
+    onChange?: (e: any)=> void
+    onBlur?: (e: any)=> void
+    value?: string
     placeholder: string
 }
 export const TextareaContactForm:  React.FC<TextareaContactFormPropsType> = ({...props}) => {

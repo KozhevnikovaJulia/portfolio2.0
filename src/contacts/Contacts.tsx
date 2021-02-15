@@ -7,8 +7,9 @@ export function Contacts(props: any) {
     <div id={"contactsBlock"} className={style.contactsBlock}>
       <TextBlock
         title={"Get In Touch"}
-        largeText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
-        text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
+        largeText={"If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form or send an email to Kozhevnikova1501@yandex.ru and ~let's talk."}
+        text={""}
+        // Let's get social. Follow my online page on GitHub and Linkedin.
       />
       <div className={style.contacts}>
         <ContactForm />
@@ -19,4 +20,5 @@ export function Contacts(props: any) {
 
   )
 }
+
 

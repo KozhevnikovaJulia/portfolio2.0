@@ -21,7 +21,7 @@ export function Nav(props: { menuModeToggle: () => void, setCurrentPage: (curren
       </div>
 
         <div className={style.menu}>
-          <Menu setCurrentPage={props.setCurrentPage}/>
+          <Menu setCurrentPage={props.setCurrentPage} menuModeToggle={props.menuModeToggle}/>
 
         </div>
     </div>

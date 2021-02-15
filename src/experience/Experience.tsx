@@ -9,17 +9,18 @@ export function Experience () {
 
       <div className={style.experience}>
         <h4 className={style.title}>Experience</h4>
-        <MyExperience date={"2020"} description={" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius dolorem iure cupiditate, qui a iusto. Saepe reiciendis dolorum dolorem impedit animi optio, dignissimos consequatur minima, illo natus sint hic!"} />
-        <MyExperience date={"2017"} description={" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius dolorem iure cupiditate, qui a iusto. Saepe reiciendis dolorum dolorem impedit animi optio, dignissimos consequatur minima, illo natus sint hic!"} />
-        <MyExperience date={"2012"} description={" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius dolorem iure cupiditate, qui a iusto. Saepe reiciendis dolorum dolorem impedit animi optio, dignissimos consequatur minima, illo natus sint hic!"} />
+        <MyExperience date={"2020-"} title={"Front-end developer(freelance)"} description={"Layout of modular CSS in Redux. Connecting and using Redux-Form. Writing unit tests. Migrating a React application to typeScript. Creating new components. Adding features."} />
+        <MyExperience date={"2020"} title={"IT-kamasutra"} description={"Development of applications in 'IT-kamautra' 'Social-network' and 'ToDoList' on the React using Redux, Thunk, ReduxForm, Axios and React-Router"} />
+        <MyExperience date={"2012-2020"} title={"Military Prosecutor's Office of the Central Military District."} description={"Professional psychological selection for determining the suitability of candidates for passing service (work) in the military prosecutor's office"} />
       </div>
 
       <TextBlock
         title={"Cover letter"}
-        largeText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
-        text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat tempora in rem quasi asperiores qui modi nihil placeat, possimus doloremque accusantium minima reprehenderit ullam laboriosam a harum delectus quae?"}
+        largeText={"I am a result-oriented front-end developer with experience in creating landing pages, SPA using HTML, CSS, TS, React, Redux. I have skills like independent and team work. Ready consider options for corporate work."}
+        text={""}
       />
 
     </div>
   )
 }
+

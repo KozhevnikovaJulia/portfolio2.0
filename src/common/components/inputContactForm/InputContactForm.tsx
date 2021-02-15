@@ -3,9 +3,9 @@ import style from "./InputContactForm.module.scss"
 
 type InputContactFormPropsType = {
     name: string
-    onChange: (e: any) => void
-    onBlur: (e: any) => void
-    value: string
+    onChange?: (e: any) => void
+    onBlur?: (e: any) => void
+    value?: string
     placeholder: string
     meta?: any
 }
