@@ -1,0 +1,20 @@
+.textBlockWrapper {
+  width: 40%;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.largeText {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1360px) {
+  .textBlockWrapper {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+}

@@ -1,4 +1,4 @@
-import style from "./Info.module.scss"
+import style from './Info.module.css';
 
 export function Info() {
   return (
@@ -12,6 +12,5 @@ export function Info() {
       <div className={style.titleInfo}>PHONE</div>
       <div className={style.textInfo}>+7(985)359-08-06</div>
     </div>
-  )
+  );
 }
-

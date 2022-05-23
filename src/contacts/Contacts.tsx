@@ -1,24 +1,19 @@
-import style from "./Contacts.module.scss"
-import {TextBlock} from "../common/components/textBlock/TextBlock"
-import {ContactForm} from "./ContactForm"
+import style from './Contacts.module.css';
+import { TextBlock } from '../common/components/textBlock/TextBlock';
+import { ContactForm } from './ContactForm';
 
 export function Contacts(props: any) {
   return (
-    <div id={"contactsBlock"} className={style.contactsBlock}>
+    <div id={'contactsBlock'} className={style.contactsBlock}>
       <TextBlock
-        title={"Get In Touch"}
+        title={'Get In Touch'}
         largeText={"If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form or send an email to Kozhevnikova1501@yandex.ru and ~let's talk."}
-        text={""}
-        // Let's get social. Follow my online page on GitHub and Linkedin.
+        text={''}
       />
       <div className={style.contacts}>
         <ContactForm />
-        <div>
-        </div>
+        <div></div>
       </div>
     </div>
-
-  )
+  );
 }
-
-

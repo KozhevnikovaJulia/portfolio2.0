@@ -1,0 +1,29 @@
+.mySkill {
+  width: 285px;
+  margin: 0 10% 10% 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #362a2e;
+  padding: 30px;
+}
+.mySkillIcon {
+  width: 80px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.mySkillTitle {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.mySkillDescription {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .mySkill {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+}

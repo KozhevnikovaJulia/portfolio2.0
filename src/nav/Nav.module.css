@@ -1,0 +1,113 @@
+.nav {
+  position: fixed;
+  width: 320px;
+  background-color: #f37b83;
+  height: 100vh;
+  z-index: 1;
+  top: 0;
+  display: none;
+  padding-top: 110px;
+  padding-left: 55px;
+}
+
+.nav.active {
+  display: block;
+}
+
+.toggleHolder {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+#toggle {
+  height: 23px;
+  width: 30px;
+  position: relative;
+}
+#toggle::before {
+  content: '';
+  height: 3px;
+  position: absolute;
+  transform-origin: 50% 50%;
+  transition: all 0.25s;
+  top: 8px;
+}
+#toggle::after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  transform-origin: 50% 50%;
+  transition: all 0.25s;
+  top: 8px;
+}
+#toggle.on:before {
+  transform: rotate3d(0, 0, 1, 45deg) translate3d(0, 0, 0);
+  background-color: #fff;
+  margin-left: 0;
+  width: 26px;
+}
+#toggle.on .menuLine {
+  opacity: 0;
+}
+#toggle.on:after {
+  transform: rotate3d(0, 0, 1, -45deg);
+  background-color: #fff;
+  width: 26px;
+}
+.menuLine {
+  width: 13px;
+  height: 3px;
+  position: absolute;
+  transition: all 0.25s;
+  margin-left: 0;
+  top: 8px;
+  background-color: #faefff;
+}
+.topPagination {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 30px;
+  display: inline-block;
+  font-weight: 700;
+  vertical-align: top;
+}
+.menu {
+  padding: 70px 0 0;
+}
+.topPagination > div {
+  display: inline-block;
+  font-weight: 700;
+  vertical-align: top;
+}
+.currentPageNum {
+  width: 25px;
+  position: relative;
+  height: 30px;
+  color: #c6646b;
+}
+.pagination {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  margin-right: 8px;
+}
+.pagination ::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #faefff;
+  top: 12px;
+}
+.totalPageNum {
+  color: #faefff;
+}
+
+@media screen and (max-width: 1020px) {
+  .nav {
+    width: 100%;
+    z-index: 2;
+  }
+}

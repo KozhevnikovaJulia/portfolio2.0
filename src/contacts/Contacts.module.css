@@ -1,0 +1,22 @@
+.contactsBlock {
+  min-height: 100vh;
+  display: flex;
+  padding: 10% 5% 0;
+}
+.contacts {
+  width: 60%;
+  border: 1px solid;
+  padding: 65px 65px 45px;
+  background-color: #f37b83;
+  margin: 0 0 10% 5%;
+}
+
+@media screen and (max-width: 1360px) {
+  .contactsBlock {
+    flex-wrap: wrap;
+  }
+  .contacts {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+}

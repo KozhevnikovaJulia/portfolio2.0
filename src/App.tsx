@@ -1,37 +1,16 @@
-import React, { useState } from "react"
 import "./App.css"
-import { Contacts } from "./contacts/Contacts"
-import {Header} from "./header/Header"
-import {Main} from "./main/Main"
-import { Progects } from "./progects/Progects"
-import {Skills} from "./scills/Skills"
-import {Experience} from "./experience/Experience"
-import {Nav} from "./nav/Nav"
+import {HomePage} from './HomePage'
+import {PrivacyPolicyPage} from './PrivacyPolicyPage'
+import {Route, Switch, Redirect} from "react-router-dom"
 
-export function App() {
-  let [menuMode, setMenuMode] = useState<boolean>(false)
-  let [currentPage, setCurrentPage] = useState<string>("01")
-
-  const menuModeToggle = () => {
-    setMenuMode(!menuMode)
-  }
+export const App = () => {
   return (
-    <div className="App">
-    <Nav menuModeToggle={menuModeToggle} currentPage={currentPage} setCurrentPage={setCurrentPage} menuMode={menuMode}/>
-        {!menuMode && <Header menuModeToggle={menuModeToggle} currentPage={currentPage} />}
-
-      <div className="contant">
-
-        
-          <Main />
-          <Skills />
-          <Progects />
-          <Experience />
-          <Contacts />
-       
-
-      </div>
-
+    <div>
+      <Switch>
+          <Route exact path={'/portfolio2.0'} render={() => <HomePage />} />
+          <Route exact path={'/privacy'} render={() => <PrivacyPolicyPage />} />
+          <Route exact path="/portfolio2.0" render={() => <Redirect to={"/portfolio2.0"} />} />
+      </Switch>
     </div>
   )
 }

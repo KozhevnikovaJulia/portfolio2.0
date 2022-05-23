@@ -1,21 +1,17 @@
-import React, { useState } from "react"
-import style from "./Header.module.scss"
-import {Info} from "../info/Info"
+import React from 'react';
+import style from './Header.module.css';
+import { Info } from '../info/Info';
 
-
-export function Header(props: { menuModeToggle: () => void , currentPage: string}) {
-
+export function Header(props: { menuModeToggle: () => void; currentPage: string }) {
   return (
     <div className={style.header}>
-
-      <a href="#" onClick={props.menuModeToggle}>
+      <a href='#' onClick={props.menuModeToggle}>
         <div className={style.toggleHolder}>
           <div id={style.toggle}>
             <div className={style.menuLine}></div>
           </div>
         </div>
       </a>
-
 
       <div className={style.topPagination}>
         <div className={style.currentPageNum}>{props.currentPage}</div>
@@ -25,8 +21,6 @@ export function Header(props: { menuModeToggle: () => void , currentPage: string
       <div className={style.myInfo}>
         <Info />
       </div>
-
     </div>
-  )
+  );
 }
-
