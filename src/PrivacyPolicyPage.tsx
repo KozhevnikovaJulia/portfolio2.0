@@ -10,7 +10,7 @@ export const PrivacyPolicyPage = () => {
         </Link>
         <div className="privacy">
           <h1>Privacy Policy</h1>
-          <p>Julia Kozhevnikova built the Калькулятор отпускных app as a Free app. This SERVICE is provided by Julia Kozhevnikova at no cost and is intended for use as is.</p>
+          <p>Julia Kozhevnikova built the 'Калькулятор отпускных', 'Таблица умножения легко', 'Читайка', 'Кем хочу быть?' apps as a Free apps. This SERVICE is provided by Julia Kozhevnikova at no cost and is intended for use as is.</p>
           <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Калькулятор отпускных unless otherwise defined in this Privacy Policy.</p>
           <h1>Information Collection and Use</h1>
           <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
