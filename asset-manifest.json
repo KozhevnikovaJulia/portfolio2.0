@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio2.0/static/css/main.7b0c12eb.chunk.css",
-    "main.js": "/portfolio2.0/static/js/main.01d794c5.chunk.js",
-    "main.js.map": "/portfolio2.0/static/js/main.01d794c5.chunk.js.map",
-    "runtime-main.js": "/portfolio2.0/static/js/runtime-main.231fb05d.js",
-    "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.231fb05d.js.map",
-    "static/js/2.b16a5300.chunk.js": "/portfolio2.0/static/js/2.b16a5300.chunk.js",
-    "static/js/2.b16a5300.chunk.js.map": "/portfolio2.0/static/js/2.b16a5300.chunk.js.map",
-    "static/js/3.6857eb93.chunk.js": "/portfolio2.0/static/js/3.6857eb93.chunk.js",
-    "static/js/3.6857eb93.chunk.js.map": "/portfolio2.0/static/js/3.6857eb93.chunk.js.map",
+    "main.css": "/portfolio2.0/static/css/main.b4200a0b.chunk.css",
+    "main.js": "/portfolio2.0/static/js/main.d300856b.chunk.js",
+    "main.js.map": "/portfolio2.0/static/js/main.d300856b.chunk.js.map",
+    "runtime-main.js": "/portfolio2.0/static/js/runtime-main.62958345.js",
+    "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.62958345.js.map",
+    "static/js/2.26b55a00.chunk.js": "/portfolio2.0/static/js/2.26b55a00.chunk.js",
+    "static/js/2.26b55a00.chunk.js.map": "/portfolio2.0/static/js/2.26b55a00.chunk.js.map",
     "index.html": "/portfolio2.0/index.html",
-    "static/css/main.7b0c12eb.chunk.css.map": "/portfolio2.0/static/css/main.7b0c12eb.chunk.css.map",
-    "static/js/2.b16a5300.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.b16a5300.chunk.js.LICENSE.txt",
+    "static/css/main.b4200a0b.chunk.css.map": "/portfolio2.0/static/css/main.b4200a0b.chunk.css.map",
+    "static/js/2.26b55a00.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.26b55a00.chunk.js.LICENSE.txt",
     "static/media/7.683357af.jpg": "/portfolio2.0/static/media/7.683357af.jpg",
     "static/media/cv.0be203b7.pdf": "/portfolio2.0/static/media/cv.0be203b7.pdf",
     "static/media/cyrus-gomez-pYdqyf4uMUA-unsplash.984d0c72.jpg": "/portfolio2.0/static/media/cyrus-gomez-pYdqyf4uMUA-unsplash.984d0c72.jpg",
@@ -19,9 +17,9 @@
     "static/media/varun-gaba-CTwQRjGDZjU-unsplash.8f3e653b.jpg": "/portfolio2.0/static/media/varun-gaba-CTwQRjGDZjU-unsplash.8f3e653b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.231fb05d.js",
-    "static/js/2.b16a5300.chunk.js",
-    "static/css/main.7b0c12eb.chunk.css",
-    "static/js/main.01d794c5.chunk.js"
+    "static/js/runtime-main.62958345.js",
+    "static/js/2.26b55a00.chunk.js",
+    "static/css/main.b4200a0b.chunk.css",
+    "static/js/main.d300856b.chunk.js"
   ]
 }
